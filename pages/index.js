@@ -13,19 +13,14 @@ import  imgBlog3 from '../public/assets/img/blog-3.jpg'
 import  imgBlog4 from '../public/assets/img/blog-4.jpg'
 import  imgBlog5 from '../public/assets/img/blog-5.jpg'
 import  imgBlog6 from '../public/assets/img/blog-6.jpg'
+import Script from 'next/script'
 
 
 
 export default function index() {
   return (
     <div>
-  <Head>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"/> 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
-    <link href="assets/css/style.css" rel="stylesheet"/>
-  </Head>
+  
 
 <div className="wrapper">
             <div className="sidebar">
@@ -261,14 +256,14 @@ export default function index() {
         </div>
         <a href="#" className="back-to-top"><i className="fa fa-angle-double-up"></i></a>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/lib/easing/easing.min.js"></script>
-        <script src="assets/lib/waypoints/waypoints.min.js"></script>
+        <Script  defer src="https://code.jquery.com/jquery-3.4.1.min.js"></Script>
+        <Script  defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></Script>
+        <Script  defer src="assets/lib/easing/easing.min.js"></Script>
+        <Script  defer src="assets/lib/waypoints/waypoints.min.js"></Script>
 
-        <script src="assets/mail/jqBootstrapValidation.min.js"></script>
-        <script src="assets/mail/contact.js"></script>
-        <script src="assets/js/main.js"></script>
+        <Script defer  src="assets/mail/jqBootstrapValidation.min.js"></Script>
+        <Script  defer src="assets/mail/contact.js"></Script>
+        <Script defer  src="assets/js/main.js"></Script>
 
     </div>
   )
