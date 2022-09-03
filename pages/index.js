@@ -256,14 +256,14 @@ export default function index() {
         </div>
         <a href="#" className="back-to-top"><i className="fa fa-angle-double-up"></i></a>
 
-        <Script  defer src="https://code.jquery.com/jquery-3.4.1.min.js"></Script>
-        <Script  defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></Script>
-        <Script  defer src="assets/lib/easing/easing.min.js"></Script>
-        <Script  defer src="assets/lib/waypoints/waypoints.min.js"></Script>
+        <Script  defer src="https://code.jquery.com/jquery-3.4.1.min.js" strategy='beforeInteractive'></Script>
+        <Script  defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" strategy='beforeInteractive'></Script>
+        <Script  defer src="assets/lib/easing/easing.min.js" strategy='beforeInteractive'></Script>
+        <Script  defer src="assets/lib/waypoints/waypoints.min.js" strategy='beforeInteractive'></Script>
 
-        <Script defer  src="assets/mail/jqBootstrapValidation.min.js"></Script>
-        <Script  defer src="assets/mail/contact.js"></Script>
-        <Script defer  src="assets/js/main.js"></Script>
+        <Script defer  src="assets/mail/jqBootstrapValidation.min.js" strategy='beforeInteractive'></Script>
+        <Script defer src="assets/mail/contact.js" strategy='beforeInteractive'></Script>
+        <Script defer  src="assets/js/main.js" strategy='beforeInteractive'></Script>
 
     </div>
   )
